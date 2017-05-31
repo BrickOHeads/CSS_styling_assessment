@@ -1,0 +1,130 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+header {background-color: #ff8523;
+height: 100px;
+}
+.logo {padding-bottom: 4%;}
+
+nav a {text-align: center;
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+  border: white solid 1px;
+  border-radius: 5%;
+  border-width: thin;
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding: 7px;
+  /*margin-top: 4%;*/
+  position: relative;
+  width: 150px;
+  }
+
+.main_navigation {display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 60%;
+  align-items: left;
+}
+
+h2 {font-family: sans-serif;
+  color: #1fabe5;}
+
+#page_content p {font-family: sans-serif;
+  font-weight: lighter;}
+
+h3 {color: #1fabe5;
+  font-family: sans-serif;}
+
+ul {font-family: sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+  }
+
+section {border-bottom: 4px solid lightgray; }
+
+
+table, tr, td {border: 2px solid #1fabe5;
+  border-collapse: collapse;
+  }
+
+table {
+  border: 2px solid black;
+  background-color: #1fabe5;
+  color: white;
+  font-family: sans-serif;
+  height: 90px;
+  padding: 20px;
+}
+
+tr, td {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+table {
+  text-align: left;
+  font-family: sans-serif;
+}
+td > img {
+  height: 50px;
+}
+
+form {background-color: #dddddd;
+  border-radius: 1%;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.name {
+  background-color: #ff8523;
+  color: white;
+  padding: 20px;
+  border-radius: 2%;
+
+}
+
+.name input {height: 25px;
+  width: 250px;}
+
+.first_name {margin-right: 50px;
+}
+
+.city_container {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#bio {
+  margin-top: 2%;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#submit_button {
+  color: white;
+  background-color: #1fabe5;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 5%;
+}
+
+.submit_container {padding: 20px;
+  border-radius: 5%;
+}
